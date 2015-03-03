@@ -1,8 +1,11 @@
 Extractor (SoMoX)
 ======================
-Reclipse is a reverse engineering tool for the automatic detection of patterns in source code. A pattern is a general, reusable solution to a commonly occurring problem in software design. Detecting pattern occurrences can help understand a piece of code and thereby provide deeper insight into a software.
+SoMoX reverse engineers instances of the Palladio Component Model (PCM) from C, C++, Java, and Delphi source code. The reverse engineering supports is suitable to speed up the creation process of precise Palladio models for existing software systems.
 
-Reclipse provides a static and a dynamic pattern detection. The static analysis in Reclipse uses a pattern specification language based on object diagrams, the so-called structural patterns. The static analysis requires the source code of the software system and a library of structural patterns. An inference algorithm recovers the structure of design patterns by graph matching. It results in an annotated class diagram which shows the possible implementations of design patterns, so-called pattern candidates. A following dynamic analysis can be used to reject or confirm these pattern candidates. For this purpose the candidates’ behavior can be monitored during the program execution, using the Reclipse tracer. The tracer generates a number of traces for each candidate.
+The SoMoX component extraction supports basic components, composite structures, interfaces, ports, as well as connectors. The extracted models are suitable to improve understanding of existing software system and enable subsequent quality analyses. Analyses for software performance, reliability, and maintenance are executed by Palladio.
+
+SoMoX extraction is based on the evaluation of multiple source code metrics. The extraction can be guided by metric settings which allow the adaptation of SoMoX to the specific component definitions and needs of individual projects. Currently, SoMoX supports source code of the languages C, C++,  Java and, Delphi. However, its general source code model can be easily extended to further programming languages. SoMoX has been developed within the context of the EU project Q-ImPrESS.
+
 
 Version
 ======================
